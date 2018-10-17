@@ -1,0 +1,16 @@
+package server;
+
+import requestreply.Message;
+
+public class TaskDispatcher implements Recipient
+{
+
+   @Override
+   public byte[] interpret(Message message)
+   {
+     
+      return null;
+   }
+   
+
+}

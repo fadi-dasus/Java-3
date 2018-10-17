@@ -1,0 +1,27 @@
+package tasks.rmi.client;
+
+import tasks.Task;
+import tasks.rmi.TaskListInterface;
+
+public class Proxy implements TaskListInterface
+{
+
+   public void add(Task task)
+   {
+      // TODO Auto-generated method stub
+      
+   }
+
+   public char[] getAndRemoveNextTask()
+   {
+      // TODO Auto-generated method stub
+      return null;
+   }
+
+   public char[] size()
+   {
+      // TODO Auto-generated method stub
+      return null;
+   }
+
+}

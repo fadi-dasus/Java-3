@@ -1,0 +1,6 @@
+package dk.via.tasks.rmi;
+
+public interface TaskListInterface
+{
+
+}

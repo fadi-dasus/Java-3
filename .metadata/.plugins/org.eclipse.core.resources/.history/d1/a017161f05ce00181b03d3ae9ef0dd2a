@@ -1,0 +1,22 @@
+package server;
+
+import requestreply.Message;
+import tasks.TaskList;
+
+public class TaskDispatcher implements Recipient
+{
+
+   public TaskDispatcher(TaskList list)
+   {
+      // TODO Auto-generated constructor stub
+   }
+
+   @Override
+   public byte[] interpret(Message message)
+   {
+     
+      return null;
+   }
+   
+
+}

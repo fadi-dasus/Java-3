@@ -1,0 +1,11 @@
+package dk.via.tasks.rmi;
+
+import dk.via.tasks.Task;
+
+public interface TaskListInterface 
+{
+   void add(Task task);
+   Task getAndRemoveNextTask() ;
+   int size();
+
+}

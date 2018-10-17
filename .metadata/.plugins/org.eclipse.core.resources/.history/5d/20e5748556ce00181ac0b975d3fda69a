@@ -1,0 +1,17 @@
+package client;
+
+import java.rmi.RemoteException;
+
+import tasks.Task;
+
+public class Test
+{
+   public static void main(String[] args) throws RemoteException
+   {
+      Task task = new Task("what ", 1);
+      Proxy p = new Proxy();
+      p.add(task);
+      
+   }
+
+}

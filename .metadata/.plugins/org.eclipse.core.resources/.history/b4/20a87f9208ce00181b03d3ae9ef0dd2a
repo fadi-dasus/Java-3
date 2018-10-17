@@ -1,0 +1,47 @@
+package server;
+
+import java.io.Serializable;
+
+import requestreply.Message;
+import tasks.TaskList;
+import util.ByteConverter;
+
+public class TaskDispatcher implements Recipient
+{
+   ByteConverter byt = new ByteConverter();
+   TaskList list;
+
+   public TaskDispatcher(TaskList list)
+   {
+      this.list = list;
+   }
+
+   @Override
+   public byte[] interpret(Message message)
+   {
+      
+      byte[] msg = message.getArgs();
+     Message message =   byt.serializableFromByteArray(msg);
+     
+      
+      
+      
+      
+      String key;
+      key = message.getMethod();
+      switch (key)
+      {
+         case "1":
+            list.add(message.);
+            break;
+
+         default:
+            break;
+      }     
+      
+     
+      return null;
+   }
+   
+
+}

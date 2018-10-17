@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="bank_branch/src"/>
+	<classpathentry kind="src" path="bank_client/src"/>
+	<classpathentry kind="src" path="bank_hq/src"/>
+	<classpathentry kind="src" path="bank_main/src"/>
+	<classpathentry kind="src" path="bank_shared/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/fadid/OneDrive/Skrivebord/third semester/SDJ (Software Development ) 3/postgresql-42.2.5.jar"/>
+	<classpathentry kind="output" path="bank_branch/bin"/>
+</classpath>

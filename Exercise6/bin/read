@@ -1,0 +1,96 @@
+SDJ3 Exercises 6
+
+This series of exercises emulates aspects of RMI using socket programming. In order to make the exercise feasible, we will make the following delimitations:
+
+· The exercise uses a single, hard-coded remote object.
+
+· The address and port of the server will be hard-coded as well.
+
+· The communication module of the server will be blocking (that is, single-threaded).
+
+The remote object will be this well-known example from SDJ2:
+
+The source code for above diagram is uploaded in itslearning.
+
+
+
+
+
+
+Exercise 6.1 – Messages
+
+Create a Message class that can contain the information that needs to be send to the server when you make a method call.
+
+ You can find inspiration in the doOperation method in section 5.2, 
+ doOperation (RemoteRef s, int operationId, byte[] arguments)
+ but remember that the remote reference is hard coded in this example.
+
+Make sure the Message can be written to an OutputStream and read from an InputStream (Hint: Look at the uploaded ByteConverter class).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercise 6.2 – Request/reply
+
+Create a request/reply protocol by creating the following:
+
+· A Recipient interface that can handle messages and return them. The interface should have one method that takes a Message and returns a byte array.
+
+· A server communication module class. This module should continuously listen to a socket on a given port. When it accepts a communication, it should read a Message and hand it on to a Recipient. Then it should send the response from the Recipient back to the caller.
+
+· A client communication module class. This module should have a doOperation() method that takes a Message and returns a byte array. The method should open a socket connection to the server, send the message over the socket, get the response and return it.
+
+Test your code before continuing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercise 6.3 – Remote Method Invocation
+
+Use the communication modules from 6.2 to implement RMI-like communication with the TaskList. Create the following:
+
+· A suitable interface for the TaskList to implement. Use your RMI experience to design the interface. Let the TaskList implement the interface.
+
+· For the server: A TaskDispatcher implementing Recipient. The TaskDispatcher should receive a message from the server communication module and call the right method from TaskList with the right arguments.
+
+· For the client: A Proxy implementing your TaskList interface. The methods of the Proxy must create the proper Message object and send it to the client communication module.
+
+Hint: Use the uploaded ByteConverter.

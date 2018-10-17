@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.imageio.spi.RegisterableService"/>
+<fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
+<fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
+<fullyQualifiedTypeName name="cars.CarBase"/>
+<fullyQualifiedTypeName name="model.CustomerList"/>
+<fullyQualifiedTypeName name="headquarterServer.HeadquarterInterface"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.UnknownError"/>
+<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+<fullyQualifiedTypeName name="javax.naming.ldap.UnsolicitedNotification"/>
+<fullyQualifiedTypeName name="branche1.Branche1Interface"/>
+<fullyQualifiedTypeName name="branche1.Branche1RemoteObject"/>
+<fullyQualifiedTypeName name="model.Exechange"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer"/>
+<fullyQualifiedTypeName name="branche1.Branch1RemoteObject"/>
+<fullyQualifiedTypeName name="java.rmi.Naming"/>
+<fullyQualifiedTypeName name="model.RemoteCustomerList"/>
+<fullyQualifiedTypeName name="branche1.Branch1Interface"/>
+<fullyQualifiedTypeName name="branche1.HeadquarterInterface"/>
+<fullyQualifiedTypeName name="model.RemoteCustomer"/>
+<fullyQualifiedTypeName name="java.rmi.Remote"/>
+<fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+<fullyQualifiedTypeName name="tasks.rmi.TaskListInterface"/>
+<fullyQualifiedTypeName name="tasks.TaskListInterface"/>
+<fullyQualifiedTypeName name="tasks.TaskList"/>
+<fullyQualifiedTypeName name="requestreply.Message"/>
+<fullyQualifiedTypeName name="util.ByteConverter"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="server.TaskDispatcher"/>
+<fullyQualifiedTypeName name="tasks.Task"/>
+<fullyQualifiedTypeName name="model.ExchangeRate"/>
+<fullyQualifiedTypeName name="model.Customer"/>
+<fullyQualifiedTypeName name="model.Account"/>
+<fullyQualifiedTypeName name="model.AccountNumber"/>
+<fullyQualifiedTypeName name="model.transaction.Transaction"/>
+<fullyQualifiedTypeName name="model.Money"/>
+</qualifiedTypeNameHistroy>

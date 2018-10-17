@@ -1,0 +1,34 @@
+package server;
+
+import requestreply.Message;
+import tasks.TaskList;
+
+public class TaskDispatcher implements Recipient
+{
+
+   public TaskDispatcher(TaskList list)
+   {
+      
+   }
+
+   @Override
+   public byte[] interpret(Message message)
+   {
+      string key;
+      key = message.getMethod();
+      switch (key)
+      {
+         case value:
+            
+            break;
+
+         default:
+            break;
+      }     
+      
+     
+      return null;
+   }
+   
+
+}

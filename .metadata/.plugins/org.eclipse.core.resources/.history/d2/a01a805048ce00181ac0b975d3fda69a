@@ -1,0 +1,14 @@
+package tasks.rmi.server;
+
+import tasks.TaskList;
+
+public class TaskDispatcher
+{
+
+   public TaskDispatcher(TaskList list)
+   {
+      // TODO Auto-generated constructor stub
+   }
+
+ 
+}

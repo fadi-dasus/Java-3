@@ -1,0 +1,14 @@
+package dk.via.tasks.rmi.client;
+
+import dk.via.tasks.Task;
+
+public class Proxy
+{
+
+   public void add(Task task)
+   {
+      // TODO Auto-generated method stub
+      
+   }
+
+}

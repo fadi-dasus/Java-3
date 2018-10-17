@@ -1,0 +1,6 @@
+package dk.via.tasks.rmi.server;
+
+public class TaskDispatcher
+{
+
+}

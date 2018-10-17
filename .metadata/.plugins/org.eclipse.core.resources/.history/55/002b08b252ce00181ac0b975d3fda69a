@@ -1,0 +1,52 @@
+package server;
+
+import java.io.IOException;
+import java.io.Serializable;
+
+import requestreply.Message;
+import tasks.Task;
+import tasks.TaskList;
+import util.ByteConverter;
+
+public class TaskDispatcher implements Recipient
+{
+  
+   TaskList list =  new TaskList();
+
+   public TaskDispatcher(TaskList list)
+   {
+      this.list = list;
+   }
+
+   @Override
+   public byte[] interpret(Message message)
+   {
+      try
+      {
+         Task task =  (Task) ByteConverter.serializableFromByteArray(message.getArgs()[0]);
+         list.add(task);    
+         
+         
+         
+      }
+      catch (ClassNotFoundException e)
+      {
+         // TODO Auto-generated catch block
+         e.printStackTrace();
+      }
+      catch (IOException e)
+      {
+         // TODO Auto-generated catch block
+         e.printStackTrace();
+      }
+  
+    
+      
+    
+    
+     
+      return null;
+   }
+   
+
+}

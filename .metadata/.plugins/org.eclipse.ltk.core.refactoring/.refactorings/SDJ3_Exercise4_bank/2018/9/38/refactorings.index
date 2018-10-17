@@ -1,0 +1,22 @@
+1537488847503	Rename package 'HeadquarterServer'
+1537489637065	Rename type 'Branche1Server'
+1537517856393	Move compilation unit
+1537517861975	Move compilation unit
+1537517868773	Move compilation unit
+1537517871258	Move compilation unit
+1537523905155	Rename type 'CustomerList'
+1537531011064	Move compilation unit
+1537531375001	Delete element
+1537531409986	Rename type 'HeahquarterRemoteObject'
+1537558422245	Rename type 'Customer'
+1537607238382	Rename type 'MainServer'
+1537607298225	Rename type 'Client'
+1537607302925	Delete element
+1537607619316	Rename type 'MainBranch1Server'
+1537607669495	Rename compilation unit 'Branche2RemoteObject.java'
+1537607677504	Rename compilation unit 'Branche2Interface.java'
+1537607685246	Rename type 'Branche1Interface'
+1537607692374	Rename type 'Branche1RemoteObject'
+1537607702649	Rename type 'MainBranche1Server'
+1537608715514	Delete element
+1537625779158	Infer generic type arguments

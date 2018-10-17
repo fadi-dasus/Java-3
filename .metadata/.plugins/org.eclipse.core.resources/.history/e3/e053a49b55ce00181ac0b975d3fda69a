@@ -1,0 +1,53 @@
+package client;
+
+import java.rmi.RemoteException;
+
+import requestreply.Message;
+import tasks.Task;
+import tasks.TaskListInterface;
+import util.ByteConverter;
+
+public class Proxy implements TaskListInterface
+{
+    ByteConverter byt = new ByteConverter();
+   private String method;
+   private byte[] args ;
+  private Message msg ; 
+
+   @Override
+   public void add(Task task) throws RemoteException
+   {
+      
+      
+      
+      Message m = new Message("add", ByteConverter.toByteArray(task));
+      try {
+         CommunicationModule.doOperation(m);
+      } catch (RemoteException e) {
+         e.printStackTrace();
+      }
+      
+//      
+//     this.args= ByteConverter.toByteArray(task);
+//     this.method  = "add";
+//     msg = new Message(method, args);
+//      CommunicationModule.doOperation(this.msg);
+      
+   
+   }
+
+   @Override
+   public Task getAndRemoveNextTask()
+   {
+      // TODO Auto-generated method stub
+      return null;
+   }
+
+   @Override
+   public int size()
+   {
+      // TODO Auto-generated method stub
+      return 0;
+   }
+
+}

@@ -1,0 +1,35 @@
+package client;
+
+import requestreply.Message;
+import tasks.Task;
+import tasks.TaskListInterface;
+
+public class Proxy implements TaskListInterface
+{
+   private String method;
+   private byte[][] args ;
+   Message msg = new Message(method, args);
+
+   @Override
+   public void add(Task task)
+   {
+      
+      CommunicationModule.doOperation(msg);
+   
+   }
+
+   @Override
+   public Task getAndRemoveNextTask()
+   {
+      // TODO Auto-generated method stub
+      return null;
+   }
+
+   @Override
+   public int size()
+   {
+      // TODO Auto-generated method stub
+      return 0;
+   }
+
+}

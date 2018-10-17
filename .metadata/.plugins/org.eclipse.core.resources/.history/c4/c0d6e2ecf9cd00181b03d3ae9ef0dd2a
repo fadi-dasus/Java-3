@@ -1,0 +1,13 @@
+package dk.via.tasks.rmi.server;
+
+import dk.via.tasks.TaskList;
+
+public class TaskDispatcher
+{
+
+   public TaskDispatcher(TaskList list)
+   {
+      // TODO Auto-generated constructor stub
+   }
+
+}
