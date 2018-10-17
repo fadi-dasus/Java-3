@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Bank/bank_branch/src"/>
+	<classpathentry kind="src" path="Bank/bank_client/src"/>
+	<classpathentry kind="src" path="Bank/bank_hq/src"/>
+	<classpathentry kind="src" path="Bank/bank_main/src"/>
+	<classpathentry kind="src" path="Bank/bank_shared/src"/>
+	<classpathentry kind="src" path="BankVersion2/src"/>
+	<classpathentry kind="src" path="car_client_new/src"/>
+	<classpathentry kind="src" path="car_client/src"/>
+	<classpathentry kind="src" path="car_server_new/src"/>
+	<classpathentry kind="src" path="car_server/src"/>
+	<classpathentry kind="src" path="car_shared_new/src"/>
+	<classpathentry kind="src" path="car_shared/src"/>
+	<classpathentry excluding="car_client/" kind="src" path="Exercise 2/car_client/src"/>
+	<classpathentry kind="src" path="Exercise 2/car_client/src/car_client"/>
+	<classpathentry kind="src" path="Exercise 2/car_server/src"/>
+	<classpathentry kind="src" path="Exercise 2/car_shared/src"/>
+	<classpathentry kind="src" path="Exercise_6/src"/>
+	<classpathentry kind="src" path="Exercise-1/src"/>
+	<classpathentry kind="src" path="Exercise6/src"/>
+	<classpathentry kind="src" path="Exercise702/src"/>
+	<classpathentry kind="src" path="Exercise703/src"/>
+	<classpathentry kind="src" path="FirstServer/src"/>
+	<classpathentry kind="src" path="RequestReply"/>
+	<classpathentry kind="src" path="SEP 2 Java Codes/src"/>
+	<classpathentry kind="src" path="test/src"/>
+	<classpathentry kind="lib" path="SEP 2 Java Codes/jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="SEP 2 Java Codes/jgoodies-forms-1.8.0.jar"/>
+	<classpathentry kind="lib" path="SEP 2 Java Codes/Libery/MyDatabase.jar"/>
+	<classpathentry kind="lib" path="SEP 2 Java Codes/Libery/postgresql-42.2.2 (1).jar"/>
+	<classpathentry kind="output" path="Bank/bank_branch/bin"/>
+</classpath>
